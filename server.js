@@ -15,7 +15,7 @@ var config ={
   database:'subway19',
   host:'db.imad.hasura-app.io',
   port: '5432',
-  password: 'db-subway19-80439'
+  password: process.env.DB_PASSWORD
 
 };
 
@@ -57,7 +57,7 @@ function createTemplate(data){
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>M</title>
+    <title>Blogging App - IMAD</title>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
